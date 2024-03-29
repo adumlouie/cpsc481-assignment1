@@ -1,4 +1,4 @@
-# Maze Generation and Solver Tool
+# Maze Generation and Solver 
 
 ![Maze Solver](mazepy.gif)
 
