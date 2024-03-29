@@ -1,5 +1,7 @@
 # Maze Generation and Solver Tool
 
+![Maze Solver](mazepy.gif)
+
 ## Overview
 This Maze Generator and Solver was built using Python and Tkinter that generates mazes and solves them using search algorithms, DFS and BFS.
 This GUI combines the Depth First Search algorithm and Breadth First Search algorithm for the maze generation and solving. 
