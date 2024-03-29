@@ -15,9 +15,5 @@ def main():
 
     print("maze created")
     is_solveable = maze.solve()
-    if not is_solveable:
-        print("maze can not be solved!")
-    else:
-        print("maze solved!")
     win.wait_for_close()
 main()

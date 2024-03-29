@@ -94,14 +94,6 @@ class Cell:
             line = Line(Point(x1, y2), Point(x2, y2))
             self.win.draw_line(line, "white")
 
-    def highlight_explored(self):
-        # Draw a slightly transparent overlay to indicate the cell has been explored
-        self.win.draw_rectangle(self.x1, self.y1, self.x2, self.y2, fill_color="blue", opacity=0.2)
-
-    def highlight_frontier(self):
-        # Draw a border or change the color of the cell to indicate it's the current frontier
-        self.win.draw_rectangle(self.x1, self.y1, self.x2, self.y2, fill_color="green", opacity=0.5)
-
     # draws path between two cells
     def draw_progress(self, to_cell, undo=False):
         # x and y mid points
